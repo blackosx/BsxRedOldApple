@@ -15,6 +15,9 @@ Please refer to [OpenCore beauty treatment](https://dortania.github.io/OpenCore-
 **Using this theme**<br>
 The Resources directory from this repo contains just the Image dir for the EFI/OC/Resources/Image dir you will have setup for OpenCanopy (if not, see the above setup link.)
 
+**Compatible with OpenCore Version**<br>
+0.6.8
+
 Each .icns file here begins with 'BsxRedOldApple_'. The idea here is you can move the contents of this Image directory in to your existing OC/Resources/Image/ directory so these new files sit along side your existing theme files. 
 
 Before you do though, you will want to select your background image from the thirteen different sized files in the /Resources/Image/BsxRedOldApple_Backgrounds directory. Choose the one for your display resolution that OpenCanopy uses and move it in with the other .icns files. You can then remove the BsxRedOldApple_Backgrounds directory as these files will generally be the largest and due to limited space on the EFI System Partition you won't want to store redundant image files.
