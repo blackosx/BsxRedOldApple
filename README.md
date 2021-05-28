@@ -1,9 +1,9 @@
-# BsxRedOldApple_
+# BsxRedOldApple
 A set of PNG files wrapped in Apple .icns file format suitable for using as a theme for OpenCanopy which is part of OpenCore.
 
-<img src="https://github.com/blackosx/BsxRedOldApple_/blob/main/preview_ui.jpg" alt="theme_preview" border="0">
+<img src="https://github.com/blackosx/BsxRedOldApple/blob/main/preview_ui.jpg" alt="theme_preview" border="0">
 
-<img src="https://github.com/blackosx/BsxRedOldApple_/blob/main/preview_password.jpg" alt="theme_preview" border="0">
+<img src="https://github.com/blackosx/BsxRedOldApple/blob/main/preview_password.jpg" alt="theme_preview" border="0">
 
 **Requirements**<br>
 [OpenCore](https://github.com/acidanthera/OpenCorePkg) with OpenCanopy installed and configured.
@@ -17,7 +17,7 @@ Please refer to [OpenCore beauty treatment](https://dortania.github.io/OpenCore-
 
 
 **Using this theme**<br>
-This repository contains a Blackosx directory with a sub-directory BsxRedOldApple_ which contains all necessary ICNS files for the theme.
+This repository contains a Blackosx directory with a sub-directory BsxRedOldApple which contains all necessary ICNS files for the theme.
 
 However, please note that this theme also contains multiple backgrounds at different sizes. You will want to select your background image from the thirteen different sized files in the /Blackosx/Backgrounds directory. Choose the one for your display resolution that OpenCanopy uses and move it in with the other .icns files. You can then remove the Backgrounds directory as these files will generally be the largest and due to limited space on the EFI System Partition you won't want to store redundant image files.
 
@@ -25,16 +25,16 @@ If you don't have a EFI/OC/Resources/Image/Blackosx directory in EFI/OC/Resource
 - then add the Blackosx directory to EFI/OC/Resources/Image/ directory in your systems EFI System Partition.
 
 If you already have EFI/OC/Resources/Image/Blackosx/<br>
-- then just add the BsxRedOldApple_ directory
+- then just add the BsxRedOldApple directory
 
 Either way, for this theme you will want to end up having
-EFI/OC/Resources/Image/Blackosx/BsxRedOldApple_
+EFI/OC/Resources/Image/Blackosx/BsxRedOldApple
 
-You can switch the icon set used by OpenCanopy by changing the 'PickerVariant' key in OpenCore's config.plist to match the vendor and theme name of the icon set you want to display. So to instruct OpenCanopy to use this icon set you want to set the PickerVariant key to Blackosx\BsxRedOldApple_
+You can switch the icon set used by OpenCanopy by changing the 'PickerVariant' key in OpenCore's config.plist to match the vendor and theme name of the icon set you want to display. So to instruct OpenCanopy to use this icon set you want to set the PickerVariant key to Blackosx\BsxRedOldApple
 
 ```
                 <key>PickerVariant</key>
-                <string>Blackosx\BsxRedOldApple_</string>
+                <string>Blackosx\BsxRedOldApple</string>
 ```
 
 **Recommended Config changes**<br>
